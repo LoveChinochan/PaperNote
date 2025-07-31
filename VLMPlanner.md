@@ -103,7 +103,7 @@ PlanTF损失：
 对比了基于规则、基于学习和基于 LLM 的多种现有方法，包括 PDM-Closed、GameFormer、PlanTF、AsyncDriver等。
 
 ### 结果
-Open-Hard20 结果：VLMPlanner 的两个版本都比各自的Baseline规划器（GameFormer 和 PlanTF）有显著提升，并且优于当前最先进的开环方法 PlanTF。值得注意的是，AsyncDriver 在 GameFormer 上表现反而不如原始 GameFormer。
+Open-Hard20 结果：VLMPlanner 的两个版本都比各自的Baseline规划器（GameFormer 和 PlanTF）有显著提升，并且优于当前最先进的开环方法 PlanTF。作者特意提了一嘴，AsyncDriver表现反而不如原始 GameFormer。
 
 Close-Hard20 结果：VLMPlanner 在反应式和非反应式闭环配置下均达到了最先进的性能，尤其在反应式条件下比 GameFormer 提升了 3.33% 的分数。
 
